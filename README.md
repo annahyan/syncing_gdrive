@@ -15,4 +15,7 @@ Rclone can be set up following [this guide](https://www.howtogeek.com/451262/how
 	-r, --remotedir	Remote parent directory in GDrive.
 
 	sync_script.sh [-t] [-l path_to_local_dir] [- path_to_remote_dir] dir1 dir2 ...
+	
+Note: the remotedir should contain a trailing slask, e.g. remote_dir and not remote_dir/.
+
 
